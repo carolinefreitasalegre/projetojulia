@@ -11,7 +11,7 @@ export const Container = styled.header`
   justify-content: space-evenly;
 
   @media (max-width: 500px) {
-    min-height: 350vh;
+    min-height: 500vh;
     overflow-y: hidden;
   }
 `;
@@ -28,7 +28,7 @@ export const Content = styled.div`
   gap: 20px;
 
   @media (max-width: 500px) {
-    height: 150vh;
+    height: 250vh;
   }
 `;
 
@@ -45,6 +45,7 @@ export const Img = styled.img`
   border: 2px solid #8c0d2f;
   cursor: pointer;
   transition: all.5s;
+  opacity: 0.8;
 
   &:hover {
     border: 2px solid #4541b1;

@@ -14,7 +14,7 @@ export const Container = styled.header`
   justify-content: center;
 
   @media (max-width: 500px) {
-    height: 67vh;
+    height: 65vh;
     background-size: 100%;
   }
 `;

@@ -8,6 +8,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
     <GlobalStyled />
-    <Analytics />
+    <Analytics debug={false} />
   </React.StrictMode>
 );

@@ -13,6 +13,7 @@ import {
 import Trainer from "../../image/TreinamentoDesportivo.svg";
 import Hidro from "../../image/hidro.svg";
 import Muscula from "../../image/muscula.svg";
+import Pilates from "../../image/pilates.png";
 import {
   BsClipboard2Heart,
   BsPencil,
@@ -34,6 +35,10 @@ export default function MyJob() {
         <Card data-aos="fade-up" data-aos-delay="80" data-aos-duration="1000">
           <Img src={Muscula} alt="foto treinamento" />
           <Text>Musculação</Text>
+        </Card>
+        <Card data-aos="fade-up" data-aos-delay="80" data-aos-duration="1000">
+          <Img src={Pilates} alt="foto treinamento" style={{ width: "16em" }} />
+          <Text>Pilates</Text>
         </Card>
       </Content>
       <ContentDescription
