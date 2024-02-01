@@ -5,7 +5,7 @@ import { BsInstagram, BsLinkedin } from "react-icons/bs";
 export default function Footer() {
   return (
     <Container>
-      <Text>ME SIGA</Text>
+      <Text>SIGA - ME</Text>
       <Icons>
         <Link
           href="https://www.instagram.com/profissionaled.fisicajulia/"
